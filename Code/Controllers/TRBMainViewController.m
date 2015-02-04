@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 Alexander Babaev. All rights reserved.
 //
 
-#import <DPL/DPL.h>
 #import "TRBMainViewController.h"
+#import "DPLUIScreenshots.h"
+#import "DPLRect.h"
 
 
 @interface TRBMainViewController ()

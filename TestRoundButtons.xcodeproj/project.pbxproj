@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DBA199ADE0D23C3E2FC91B2 /* DPL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBA1A5AE9E121DD76E9754D /* DPL.framework */; };
+		2DBA11FC7C9815DDED51BBFF /* DPLUIScreenshots.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA13479837C6921F673B04 /* DPLUIScreenshots.m */; };
+		2DBA1485C4D7CC3E2D18F514 /* DPLRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1B275DCD4D9910F44AF5 /* DPLRect.m */; };
 		FA3D10751A82287300810C57 /* TRBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D10661A82287300810C57 /* TRBAppDelegate.m */; };
 		FA3D10761A82287300810C57 /* TRBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D10691A82287300810C57 /* TRBMainViewController.m */; };
 		FA3D10771A82287300810C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D106B1A82287300810C57 /* main.m */; };
@@ -17,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2DBA1A5AE9E121DD76E9754D /* DPL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DPL.framework; path = /Users/alex/Programming/DPL/_binary/DPL.framework; sourceTree = "<absolute>"; };
+		2DBA13353AB2D0D39A049D3E /* DPLRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLRect.h; sourceTree = "<group>"; };
+		2DBA13479837C6921F673B04 /* DPLUIScreenshots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLUIScreenshots.m; sourceTree = "<group>"; };
+		2DBA1B275DCD4D9910F44AF5 /* DPLRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLRect.m; sourceTree = "<group>"; };
+		2DBA1DA60898096A7902ED9F /* DPLUIScreenshots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLUIScreenshots.h; sourceTree = "<group>"; };
 		FA1AB4461A793294005DD38A /* TestRoundButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRoundButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3D10651A82287300810C57 /* TRBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRBAppDelegate.h; sourceTree = "<group>"; };
 		FA3D10661A82287300810C57 /* TRBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRBAppDelegate.m; sourceTree = "<group>"; };
@@ -35,17 +39,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DBA199ADE0D23C3E2FC91B2 /* DPL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DBA1DCC857D12CC1B22885C /* DPL */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA13353AB2D0D39A049D3E /* DPLRect.h */,
+				2DBA1B275DCD4D9910F44AF5 /* DPLRect.m */,
+				2DBA1DA60898096A7902ED9F /* DPLUIScreenshots.h */,
+				2DBA13479837C6921F673B04 /* DPLUIScreenshots.m */,
+			);
+			path = DPL;
+			sourceTree = "<group>";
+		};
 		2DBA1E8007D8804B57C1068C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2DBA1A5AE9E121DD76E9754D /* DPL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,6 +88,7 @@
 				FA3D106A1A82287300810C57 /* Other */,
 				FA3D10651A82287300810C57 /* TRBAppDelegate.h */,
 				FA3D10661A82287300810C57 /* TRBAppDelegate.m */,
+				2DBA1DCC857D12CC1B22885C /* DPL */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -188,6 +202,8 @@
 				FA3D10761A82287300810C57 /* TRBMainViewController.m in Sources */,
 				FA3D10771A82287300810C57 /* main.m in Sources */,
 				FA3D10751A82287300810C57 /* TRBAppDelegate.m in Sources */,
+				2DBA1485C4D7CC3E2D18F514 /* DPLRect.m in Sources */,
+				2DBA11FC7C9815DDED51BBFF /* DPLUIScreenshots.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
